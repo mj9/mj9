@@ -8,12 +8,20 @@
 
 # My projects
 
+
+
+## 2015
+
 ## 2014
 
-| LoL Pick List | Snake Draw | Misc |
-|--|--|--|
-|<p align='center'><img src="images/javaw_2021-07-19_19-10-23.png"></p>      To help create and maintain a diverse champion pool in the game, I created this (I used to main fill as a role). For each role, a number of champions can be picked. Notes can be attached to them and show as tooltips (indicated in bottom right corner). The semi-opaque overlay can be used to mark tentative additions to the champ pool. The current selection is also copied to the clipboard (bottom text field), to be pasted into the in-game champion search. | <p align='center'><img src="images/draw.gif" width></p>      I used to draw patterns made from a single line on paper. This is the first creative tool I developed. The line moves on a fixed grid, which is drawn to a canvas. It can be saved and loaded, and undo functionality allows to fix mistakes, such as when the head gets stuck in a dead end.     | **Giveaway Browser** <img src="images/java_2021-07-20_14-46-12.png" width=5 height=5> simple view of a subreddit that keeps refreshing.<br/>     **Snake Game** <img src="images/drawgame.gif" width=5 height=5> proof of concept for a very simple game loop with rules.
 
+| Game of Life | Misc |
+|--|--|
+| <p align='center'><img src="images/gameoflife.gif"></p>      For a university project I was in a team tasked to replicate this classical German board game. I designed the frontend with JS and CSS Animations, including all artwork (except for background sprites, i.e. trees and houses). The spinner for instance is created entirely in CSS. The browser shows the section of the board that is currently active. Player figures (family cars with space for up to six people) move smoothly across the track. The spinner animates the rolls that are given by the backend. An event log tracks the state of the game. This game was fully playable for multiple human and AI players. |      **Giveaway Browser** <img src="images/java_2021-07-20_14-46-12.png" width=5 height=5> simple filtered view of a subreddit that keeps refreshing.<br/>     **Snake Game** <img src="images/drawgame.gif" width=5 height=5> proof of concept for a very simple game loop with rules. |
+
+| LoL Pick List | Snake Draw |
+|--|--|
+|<p align='center'><img src="images/javaw_2021-07-19_19-10-23.png"></p>      To help create and maintain a diverse champion pool in the game, I created this (I used to main fill as a role). For each role, a number of champions can be picked. Notes can be attached to them and show as tooltips (indicated in bottom right corner). The semi-opaque overlay can be used to mark tentative additions to the champ pool. The current selection is also copied to the clipboard (bottom text field), to be pasted into the in-game champion search. | <p align='center'><img src="images/draw.gif" width></p>      I used to draw patterns made from a single line on paper. This is the first creative tool I developed. The line moves on a fixed grid, which is drawn to a canvas. It can be saved and loaded, and undo functionality allows to fix mistakes, such as when the head gets stuck in a dead end. |
 
 ## 2013
 
@@ -23,7 +31,7 @@
 
 | Turtle Blueprints | DNS Changer | Misc |
 |--|--|--|
-|<p align='center'><img src="images/java_2021-07-09_19-17-17.png" height=200 width=300></p>     Turtles are robots from the Computercraft mod for Minecraft. They can be programmed in the game to move around and place blocks. This can be easily used to build predefined structures, however typing a building blueprint by hand is difficult. I made a simple tool with a graphical interface for that, that can also upload the blueprint script to Pastebin. | <p align='center'><img src="images/javaw_2021-07-09_21-37-00.png" width=400></p>     A tool that stores DNS profiles that can be switched between with a click. Additionally it could fetch IPs from a smart DNS website. | **Big file reader** <img src="images/cmd_2021-07-10_18-15-10.png" width=5 height=5> command-line tool to efficiently search through very large text files. |
+|<p align='center'><img src="images/java_2021-07-09_19-17-17.png" height=200 width=300></p>     Turtles are robots from the Computercraft mod for Minecraft. They can be programmed in the game to move around and place blocks. This can be easily used to build predefined structures, however typing a building blueprint by hand is difficult. I made a simple tool with a graphical interface for that, that can also upload the blueprint script to Pastebin. | <p align='center'><img src="images/javaw_2021-07-09_21-37-00.png" width=400></p>     A tool that stores DNS profiles that can be switched between with a click. Additionally it could fetch IPs from a smart DNS website. | **Big file reader** <img src="images/cmd_2021-07-10_18-15-10.png" width=5 height=5> command-line tool to efficiently search through very large text files.<br/>      **Online shop demo** backed by PHP/SQL, frontend with HTML/CSS/JS. |
 
 
 
