@@ -14,22 +14,13 @@
 |--|
 | Soon™ |
 
-| MouseChart | Misc |
+| MouseChart | Script Timer |
 |--|--|
-| <p align='center'><img src="images/mousechart700.webp"/></p>     If you spend a lot of time on a computer, you may sometimes wonder what you did all day. To answer this question, this tool tracks your activity (mouse movements, and active window titles) and plots it. In addition to a broad overview, every single minute can be viewed, and summaries can be created. This also serves as somewhat of a diary, since you can go back to any point in time and see what you did. The activity log files are also made to be human-readable, so that all detailed information can be viewed at a glance, with an editor of your choice. | **CUDA string matching** <img src="images/notepad++_2021-08-04_23-27-48.png" width=5 height=5/>      GPU implementation of the Rabin/Karp algorithm. <br/> **Atom unicode snippets** <img src="images/atom_2021-08-04_23-35-05.png" width=5 height=5/>      Java tool to query (mathematical) unicode characters and make them typeable in the Atom text editor. <br/> **File sequence parser** <img src="images/ffmpeg-series2.png" width=5 height=5/>      intelligently detects numbering sequences in filenames and integrates into the Windows explorer context menu to run a configurable command on the sequence. <br/> **Game networking library** <img src="images/SpaceSniffer_2021-08-05_00-17-18.png" width=5 height=5/> uses Java SSL sockets and java.io Streams to transport data and events (Objects) securely over network. |
+| <p align='center'><img src="images/mousechart700.webp"/></p>     If you spend a lot of time on a computer, you may sometimes wonder what you did all day. To answer this question, this tool tracks your activity (mouse movements, and active window titles) and plots it. In addition to a broad overview, every single minute can be viewed, and summaries can be created. This also serves as somewhat of a diary, since you can go back to any point in time and see what you did. The activity log files are also made to be human-readable, so that all detailed information can be viewed at a glance, with an editor of your choice. | <p align='center'><img src="images/timer4.png"/></p>       A simple timer that stores and runs shell scripts. I use this mostly to turn off the computer while I am away or asleep, or to remind myself when a pizza is done. It also shows the progress in the Windows taskbar, which is not native to JavaFx. |
 
-| Fake Process Builder | Script Timer |
+| Fake Process Builder | Misc |
 |--|--|
-| <p align='center'><img src="images/2021-08-04_17-36-24.png"/></p>      An interesting security concept is that malware does not want to run in environments where it could be analysed. So by creating fake processes that mimic common analysis and reverse-engineering tools, potential malware may decide to not even run your system. Although I am not the first to implement this idea, prior solutions simply renamed existing executable files. This may incur a performance hit, but also the executable metadata (such as the title) can be used to identify the original file name and author. To alleviate this, my solution creates custom process metadata (including icon) for every process. New processes can be added to the list and will automatically be compiled into executables when the app runs. | <p align='center'><img src="images/timer4.png"/></p>       A simple timer that stores and runs shell scripts. I use this mostly to turn off the computer while I am away or asleep, or to remind myself when a pizza is done. It also shows the progress in the Windows taskbar, which is not native to JavaFx.
-
-
-
-
-
-
-
-
-
+| <p align='center'><img src="images/2021-08-04_17-36-24.png"/></p>      An interesting security concept is that malware does not want to run in environments where it could be analysed. So by creating fake processes that mimic common analysis and reverse-engineering tools, potential malware may decide to not even run your system. Although I am not the first to implement this idea, prior solutions simply renamed existing executable files. This may incur a performance hit, but also the executable metadata (such as the title) can be used to identify the original file name and author. To alleviate this, my solution creates custom process metadata (including icon) for every process. New processes can be added to the list and will automatically be compiled into executables when the app runs. | **CUDA string matching** <img src="images/notepad++_2021-08-04_23-27-48.png" width=5 height=5/>      GPU implementation of the Rabin/Karp algorithm. <br/> **Atom unicode snippets** <img src="images/atom_2021-08-04_23-35-05.png" width=5 height=5/>      Java tool to query (mathematical) unicode characters and make them typeable in the Atom text editor. <br/> **File sequence parser** <img src="images/ffmpeg-series2.png" width=5 height=5/>      intelligently detects numbering sequences in filenames and integrates into the Windows explorer context menu to run a configurable command on the sequence. <br/> **Game networking library** <img src="images/SpaceSniffer_2021-08-05_00-17-18.png" width=5 height=5/> uses Java SSL sockets and java.io Streams to transport data and events (Objects) securely over network. |
 
 ## 2016
 
