@@ -1,12 +1,20 @@
 - 👋 Hi, I’m @mj9
 - 👀 I’m interested in Deep Learning, Computer Vision, Java, Task Automation
 
-<!--- 🌱 I’m currently learning Deep Learning
+<!---
+- 🌱 I’m currently learning Deep Learning
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 --->
 
-# My projects
+
+
+
+## 2018
+
+| Misc |
+|--|
+| **Unitypatcher** <img src="images/javaw_2021-08-18_14-20-50.png" width=5 height=5/>       byte manipulation tool <br/> **TimeDifference** <img src="images/javaw_2021-08-20_14-11-55.png" width=5 height=5/>      utility for date and time calculations <br/> **YtApp** <img src="images/javaw_2021-08-19_17-24-33.png" width=5 height=5/>      proof of concept for scraping YouTube channel pages <br/> **GükoScraper** <img src="images/chrome_2021-08-19_19-09-32.png" width=5 height=5/>       a web scraper to extracts job listings from a website into CSV format <br/> **WinOgerUtil** Java library for Windows specific features (flashing taskbar icons and taskbar progress bars) <br/> **SequenceViewer** <img src="images/javaw_2021-08-19_19-57-39.png" width=5 height=5/>      image viewer for large scale qualitative image comparison |
 
 ## 2017
 
@@ -20,7 +28,7 @@
 
 | Fake Process Builder | Script Timer |
 |--|--|
-| <p align='center'><img src="images/2021-08-04_17-36-24.png"/></p>      An interesting security concept is that malware does not want to run in environments where it could be analysed. So by creating fake processes that mimic common analysis and reverse-engineering tools, potential malware may decide to not even run your system. Although I am not the first to implement this idea, prior solutions simply renamed existing executable files. This may incur a performance hit, but also the executable metadata (such as the title) can be used to identify the original file name and author. To alleviate this, my solution creates custom process metadata (including icon) for every process. New processes can be added to the list and will automatically be compiled into executables when the app runs. | <p align='center'><img src="images/timer4.png"/></p>       A simple timer that stores and runs shell scripts. I use this mostly to turn off the computer while I am away or asleep, or to remind myself when a pizza is done. It also shows the progress in the Windows taskbar, which is not native to JavaFx.
+| <p align='center'><img src="images/2021-08-04_17-36-24.png"/></p>      An interesting security concept is that malware does not want to run in environments where it could be analysed. So by creating fake processes that mimic common analysis and reverse-engineering tools, potential malware may decide to not even run your system. Although I am not the first to implement this idea, prior solutions simply renamed existing executable files. This may incur a performance hit, but also the executable metadata (such as the title) can be used to identify the original file name and author. To alleviate this, my solution creates custom process metadata (including icon) for every process. New processes can be added to the list and will automatically be compiled into executables when the app runs. | <p align='center'><img src="images/timer4.png"/></p>       A simple timer that stores and runs shell scripts. I use this mostly to turn off the computer while I am away or asleep, or to remind myself when a pizza is done. It also shows the progress in the Windows taskbar, which is not native to JavaFx. |
 
 ## 2016
 
