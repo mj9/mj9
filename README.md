@@ -8,6 +8,49 @@
 --->
 
 
+My projects
+===========
+
+## 2021
+
+<details><summary>⚠ Under Construction ⚠</summary>
+
+- [main] kernel estimation network
+
+</details>
+
+## 2020
+
+<details><summary>⚠ Under Construction ⚠</summary>
+
+- [main] windowrobot
+- [main] playlist dl
+
+
+- [misc] filesplitter
+- [side] privatebin uploader
+
+</details>
+
+## 2019
+
+<details><summary>⚠ Under Construction ⚠</summary>
+
+- [main] high speed imaging  
+
+
+- [main] giveaway paster
+- [side] Zork Bot
+
+
+- [side] dungeon map
+- [misc] ImageNet downloader
+- [misc] Obfuscator v2
+- [misc] SYI scraper/crawler
+- [misc] java image processing
+- [misc] repl / regex rename
+
+</details>
 
 
 ## 2018
