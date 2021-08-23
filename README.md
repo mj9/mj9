@@ -12,9 +12,9 @@
 
 ## 2018
 
-| Misc |
-|--|
-| **Unitypatcher** <img src="images/javaw_2021-08-18_14-20-50.png" width=5 height=5/>       byte manipulation tool <br/> **TimeDifference** <img src="images/javaw_2021-08-20_14-11-55.png" width=5 height=5/>      utility for date and time calculations <br/> **YtApp** <img src="images/javaw_2021-08-19_17-24-33.png" width=5 height=5/>      proof of concept for scraping YouTube channel pages <br/> **GükoScraper** <img src="images/chrome_2021-08-19_19-09-32.png" width=5 height=5/>       a web scraper to extracts job listings from a website into CSV format <br/> **WinOgerUtil** Java library for Windows specific features (flashing taskbar icons and taskbar progress bars) <br/> **SequenceViewer** <img src="images/javaw_2021-08-19_19-57-39.png" width=5 height=5/>      image viewer for large scale qualitative image comparison |
+| YtApp | Misc |
+|--|--|
+| <p align='center'><img src="images/javaw_2021-08-19_17-24-33.png"/></p>      A proof of concept for scraping and merging YouTube channel pages, specialised for Music. | **Unitypatcher** <img src="images/javaw_2021-08-18_14-20-50.png" width=5 height=5/>       byte manipulation tool <br/> **TimeDifference** <img src="images/javaw_2021-08-20_14-11-55.png" width=5 height=5/>      utility for date and time calculations <br/> **GükoScraper** <img src="images/chrome_2021-08-19_19-09-32.png" width=5 height=5/>       a web scraper to extract job listings from a website into CSV format <br/> **WinOgerUtil** Java library for Windows specific features (flashing taskbar icons, taskbar progress bars and window titles) <br/> **SequenceViewer** <img src="images/javaw_2021-08-19_19-57-39.png" width=5 height=5/>      image viewer for large scale qualitative image comparison |
 
 ## 2017
 
