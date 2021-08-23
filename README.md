@@ -7,6 +7,18 @@
 - 📫 How to reach me ...
 --->
 
+My writing
+==========
+
+## 2021
+
+- *Master Thesis:* [Blur Kernel Estimation by Deep Learning](papers/Kernel-Estimation.pdf)
+
+## 2019
+
+- *Bachelor Thesis:* [Video Object Segmentation with Deep Learning](papers/Video-Object-Segmentation.pdf)
+- *Seminar Paper:* [From Multi-Layer Depth Peeling to Efficient Order-Independent Transparency](papers/Multi-Layer-Depth-Peeling.pdf)
+
 
 My projects
 ===========
