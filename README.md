@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @mj9
 - 👀 I’m interested in Deep Learning, Computer Vision, Java, Functional Programming, Task Automation, Game Design
+- 📔 Below is an overview over my writing (grouped by completion time) and projects (grouped by start time, many of which are still ongoing)
 
 <!---
 - 🌱 I’m currently learning ...
