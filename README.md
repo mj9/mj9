@@ -46,24 +46,17 @@ My projects
 
 ## 2019
 
-<details><summary>⚠ Under Construction ⚠</summary>
+| High Speed Imaging |
+|--|
+| <p align='center'><img src="images/beach_noise2.webp" width=50%/><img src="images/beach_output2.webp" width=50%/><br/><sub align='center'><img src="images/msedge_2021-08-26_21-24-19.png" height=29/> <img src="images/msedge_2021-08-26_21-32-14.png" height=29/> <img src="images/chrome_2021-08-26_03-19-33.png" height=29/></sub></p>       *Left: 1-bit video, right: network output.* To record high temporal resolution footage, exposure times have to be short, i.e. the number of photons hitting the sensor is low. Pushing this to the extreme, photon counting sensors may only consider a single bit per frame. So a pixel is either black, or white in case a photon was detected. <br/> For this partner project, we successfully reimplemented the spatio-temporal denoising network from a [paper](https://www.researchgate.net/publication/328781628_A_Little_Bit'_Too_Much_High_Speed_Imaging_from_Sparse_Photon_Counts) (with access to dataset but not source code) in `PyTorch`, and obtained small improvements. I also implemented an n-dimensional crop and stitch algorithm to process large video volumes in chunks. |
 
-- [main] high speed imaging  
+| GiveawayPaster | Zork Bot |
+|--|--|
+| <p align='center'><img src="images/javaw_2021-08-25_14-07-51.png"/></p>       Out of curiosity, I wanted to see if key giveaways in Twitch chat could be automated. This tool scans a chat for messages containing keys, and can be configured to paste and submit them in any window. I never ended up using it because the only giveaways I found were for North American servers in League. | <p align='center'><img src="images/chrome_2021-08-25_14-58-46.png"/></p>       Looking for more ways to integrate games into a chat environment, I found old text adventure games (interactive fiction). There are existing games like Zork (1979), which have been ported to many platforms. I took the `Java` implementation [ZMPP](https://github.com/wandora-team/zmpp-wandora), and modified it to be used with Twitch chat. This can be used for multiple users to collaboratively play these old Z-Machine game files. |
 
-
-- [main] giveaway paster
-- [side] Zork Bot
-
-
-- [side] dungeon map
-- [misc] ImageNet downloader
-- [misc] Obfuscator v2
-- [misc] SYI scraper/crawler
-- [misc] java image processing
-- [misc] repl / regex rename
-
-</details>
-
+| Dungeon Map | Misc |
+|--|--|
+| <p align='center'><img src="images/javaw_2021-08-25_13-20-19.png"/></p> Proof of concept for dungeon generation, inspired by Slay the Spire. | **REPL** <img src="images/java_2021-08-25_12-24-50.png" width=5 height=5/>      read-eval-print loop, i.e. shell environment that can run commands, that I made to rename large numbers of files <br/> **Java image processing**     small set of companion functions for thesis (rotate, threshold, and measures like IoU and contour score) <br/> **Obfuscator v2** <img src="images/javaw_2021-08-25_13-03-31.png" width=5 height=5/>       new generation of tool to obfuscate API keys in code, with my own xor cipher implementation, and measures to ensure decoding only works on a particular system <br/> **ImageNet downloader**     Java utility for multi-threaded downloading given a list of URLs, with many levels of error checking (timeouts, HTTP errors, URL decode, URL-to-filename correction, image format validation) |
 
 ## 2018
 
