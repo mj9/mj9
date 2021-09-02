@@ -24,26 +24,15 @@ My writing
 My projects
 ===========
 
-## 2021
-
-<details><summary>⚠ Under Construction ⚠</summary>
-
-- [main] kernel estimation network
-
-</details>
-
 ## 2020
 
-<details><summary>⚠ Under Construction ⚠</summary>
+| Kernel Prediction Network |
+|--|
+| <p align='center'><img src="images/chrome_2021-08-31_01-29-52.png?"/><br/><kbd><img src="images/msedge_2021-09-02_14-54-45.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-03-00.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-03-10.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-03-31.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-04-05.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-04-54.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-05-13.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-06-03.png" height=29/></kbd> <kbd><img src="images/msedge_2021-09-02_15-05-40.png" height=29/></kbd></p>        For my Master thesis, I designed a `PyTorch` network to estimate blur kernels, that can be used to deblur images. This is a novel architecture (comprised of a VGG base network and a U-Net style encoder-decoder network). There has been no substantial prior work in this area, where motion blur kernels are estimated directly with neural networks (the common approach is to estimate the sharp image exclusively or simultaneously). As seen in the image (and known from classical blind deblurring), optimizing for the image fails in a simple setting. In my experiments, I discovered the key to make this work (for my approach) is optimizing kernels in spatial domain using a shift-tolerant loss function. Prior deep neural networks existed for direct kernel estimation (and were even somewhat popular), but not for difficult blur types such as nonlinear motion blur. I theorize that with a loss function designed for kernel estimation, this approach may yield state-of-the-art results even on challenging motion blur. |
 
-- [main] windowrobot
-- [main] playlist dl
-
-
-- [misc] filesplitter
-- [side] privatebin uploader
-
-</details>
+| PlaylistDownloader | WindowRobot | Misc |
+|--|--|--|
+| <p align='center'><img src="images/javaw_2021-08-30_02-14-28.png"/></p>       For years I manually downloaded and tagged music, then finally made this app to streamline the process. Although intended for YouTube, it can download music and videos from any site supported by [youtube-dl](https://youtube-dl.org/). Already downloaded files are skipped, and source link is saved for each directory, to allow continuous synchronization. For tagging (including cover art), SoundCloud is used, while mp3, opus and other formats are [supported](https://bitbucket.org/ijabz/jaudiotagger/). But YouTube can be used as a fallback for tagging (including thumbnail cropping). It can also tag already existing files. | <p align='center'><img src="images/javaw_2021-08-28_22-41-00.png"/></p>        Automation tool for mouse and keyboard inputs in and between application windows. Comes with a tiny script language, and guide for it. It can grab windows by title, and record mouse coordinates within (so window position does not matter). When a click is within a window, it is automatically focused. Scripts can be executed by command line. I used this to process several hundreds of images for my thesis.   |        **Privatebin Uploader** Java implementation for encrypted text uploading (AES/GCM with PBKDF2) <br/> **PyTorch network plotting** <img src="images/msedge_2021-09-02_15-07-54.png" width=5 height=5/>        takes a network instance and draws accurate layer sizes and labels, and can be customized in many ways <br/> **Filesplitter** <img src="images/javaw_2021-08-28_23-11-46.png" width=5 height=5/>     made as companion tool for [MouseChart](#2017) logs, it can split lines into two files, depending on keyword matches |
 
 ## 2019
 
