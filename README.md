@@ -24,6 +24,12 @@ My writing
 My projects
 ===========
 
+## 2022
+
+| [Gradle Plugin](https://github.com/itsnotoger/gradle-plugin) |
+|--|
+| Personal projects have slowed down, as I worked mostly on my new software engineering job. I learned Kotlin and Scala (and Groovy), so new projects will likely no longer be using Java. This gradle plugin helps bring my legacy Java Eclipse projects (2016 onward) to a much more maintainable state, where they can be built anywhere. So they are now pure Gradle projects. Custom jar dependencies are replaced with public GitHub forks built via JitPack. My library projects are published via Maven. Automated unit tests are configured. The plugin itself is written in Kotlin and tested with Spock, and is also my first public repository. |
+
 ## 2020
 
 | Kernel Prediction Network |
