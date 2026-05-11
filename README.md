@@ -1,15 +1,11 @@
-- 👋 Hi, I’m @mj9
-- 👀 I’m interested in Deep Learning, Computer Vision, Java, Functional Programming, Task Automation, Game Design
-- 📔 Below is an overview over my writing (grouped by completion time) and projects (grouped by start time, many of which are still ongoing)
+### About me
+I'm interested in Deep Learning, LLMs (long-context, memory), Computer Vision, Java, Functional Programming, Task Automation, Game Design. I started playing games in the late 2000s, have been programming consistently since 2013 (though dabbled in some C++ and CMD even earlier), and taken an interest in research in 2019.
 
-<!---
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
---->
+Below is a portfolio of my writing and projects. (Private projects are grouped by start time, and some are still ongoing. Work projects start 2023, grouped by completion time.) Some of the projects are of course very early work.
 
-My writing
-==========
+
+Writing
+=======
 
 ## 2021
 
@@ -20,16 +16,25 @@ My writing
 - *Bachelor Thesis:* [Video Object Segmentation with Deep Learning](papers/Video-Object-Segmentation.pdf)
 - *Seminar Paper:* [From Multi-Layer Depth Peeling to Efficient Order-Independent Transparency](papers/Multi-Layer-Depth-Peeling.pdf)
 
+<br>
 
-My projects
-===========
+Projects
+========
+
+## 2026
+
+TODO work projects
+
+## 2024-2025
+
+TODO (LLM related)
 
 ## 2023
 
-| Project \\<br>&emsp;&emsp;&emsp;\\ Work | Frontend | Backend | Ops |
+| Project \\ &emsp;&emsp;<br>&emsp;&emsp;&emsp; \\ Work | Frontend | Backend | Ops |
 |--|--|--|--|
 | **Infotainment middleware** (navigation-related feature) | **Debug menu**. There was not much frontend work, but I did implement a debug menu for testers, in `Kotlin`. This is used to display car-local data and state, and backend sync status. During the application lifecycle, the car periodically uploads data, that is processed by the backend for learning, and consumed again by the car to offer smart functionality. <br> **Simulation app**. To generate test data, before test drives could produce it, we had a standalone `Android` mobile app, that was used to generate simulated data, in various modalities. I updated this app from its early proof of concept state, to be compatible with the production architecture.   |   The backend was a set of microservices written in `Scala` and `Go`, interfacing via `gRPC` and `Kafka`. But I only worked on the Scala services. One used `Flink` to process large scala data, another used `Spark`. Most of my work was done on the latter service. While the Flink service accumulated user data, the Spark service did the heavy lifting of processing and learning from this data. It had to scale to potentially millions of users, which is why the combination of Spark/Scala was chosen. This core process needed to be as robust as possible, and Scala offered the highest amount of compile/type safety, whereas Spark allowed for heavily distributed workloads. However Spark (at the time) was not entirely cloud-native, leading to friction with the `Istio` service mesh. Testing was done with `Spock`, which I highly recommend for the JVM ecosystem. *Lesson learned for me was getting familiar with professional work, in an innovative environment, with an impressive tech stack.*   <br>   A major part of my work was being the sole developer for porting a complex clustering algorithm from `Python/NumPy` to Scala, adapting it from matrix-based operations into to a functional paradigm (idiomatic tail-recursive functions). Over 3 months, I cycled between planning (break-down presentations) and implementation phases, and ultimately also asserting correctness with tests and by comparing with the reference implementation. *Lesson learned for me was that research-grade Python code and performant production-grade code can be quite different. Although documentation was present, I still had to infer a lot of the intent and "whys" from code alone, especially for the non-default parameters, and also overcome a couple of bugs in the reference implementation.*   |   For the latter half of my work, I pivoted from backend to `Kubernetes` operations, as well as some `Gradle` work for deployment. Getting all the services integrated into the provisioned cluster, and stable took considerable focus. Our stack was doing most deployment configuration through `Kustomize` (similar capability as Helm) and we needed the deployments to be observable and manageable through `ArgoCD`. This meant customizing all deployments in a way that ArgoCD supports, including versioning and job histories.   |
-| **Crypto Shredding** |  | A major unexpected side project was building an in-house solution for data privacy at rest. **Why**: Naively, you might think there is no need to encrypt user data at rest, in an internal storage system. But GDPR law is very strict - when a user requests their data to be deleted, it must be deleted from every place. However, you cannot simply query all current databases and remove it, because the data tends to trickle into many different places. The main concern is backups, which are non-trivial to modify and redact. Hence crypto shredding is a standard practise, where you encrypt all user data, and when deletion is requested, you simply throw away the key, immediately invalidating all data for that user. <br> Everyone expected that a suitable solution already exists for this, but after I did extensive evaluation, we came up empty. Vault-like solutions exist, but they were all engineered for a different problem, which is storage of API credentials, i.e. low data volume. We needed a solution to store *all* user data, with per-user encryption keys and high throughput. Using an existing vault would have blown both rate and cost limits. Since this is a general need for the company, beyond the infotainmennt product, we built a data privacy SDK with `Java` and `Tink`, where I implemented most of the Tink crypto.   |   Strict data privacy standards require deployment and operation support for data privacy at rest. While the service mesh grants data privacy during transport, we were required to encrypt and decrypt all user data that was stored persistently. This required a cloud-native solution, with performance in mind. Every service needs to decrypt user data, do its operations, and write resulting encrypted data back. The overhead for each service must be as small as possible.   |
+| **Crypto Shredding** (GDPR-compliance) |  | A major unexpected side project was building an in-house solution for data privacy at rest. **Why**: Naively, you might think there is no need to encrypt user data at rest, in an internal storage system. But GDPR law is very strict - when a user requests their data to be deleted, it must be deleted from every place. However, you cannot simply query all current databases and remove it, because the data tends to trickle into many different places. The main concern is backups, which are non-trivial to modify and redact. Hence crypto shredding is a standard practise, where you encrypt all user data, and when deletion is requested, you simply throw away the key, immediately invalidating all data for that user. <br> Everyone expected that a suitable solution already exists for this, but after I did extensive evaluation, we came up empty. Vault-like solutions exist, but they were all engineered for a different problem, which is storage of API credentials, i.e. low data volume. We needed a solution to store *all* user data, with per-user encryption keys and high throughput. Using an existing vault would have blown both rate and cost limits. Since this is a general need for the company, beyond the infotainment product, we built a data privacy SDK with `Java` and `Tink`, where I implemented most of the Tink crypto.   |   Strict data privacy standards require deployment and operation support for data privacy at rest. While the service mesh grants data privacy during transport, we were required to encrypt and decrypt all user data that was stored persistently. This required a cloud-native solution, with performance in mind. Every service needs to decrypt user data, do its operations, and write resulting encrypted data back. The overhead for each service must be as small as possible.   |
 
 ## 2022
 
