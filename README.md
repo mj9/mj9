@@ -9,12 +9,12 @@ Writing
 
 ## 2021
 
-- *Master Thesis:* [Blur Kernel Estimation by Deep Learning](papers/Kernel-Estimation.pdf)
+- `Master Thesis` [Blur Kernel Estimation by Deep Learning](papers/Kernel-Estimation.pdf)
 
 ## 2019
 
-- *Bachelor Thesis:* [Video Object Segmentation with Deep Learning](papers/Video-Object-Segmentation.pdf)
-- *Seminar Paper:* [From Multi-Layer Depth Peeling to Efficient Order-Independent Transparency](papers/Multi-Layer-Depth-Peeling.pdf)
+- `Bachelor Thesis` [Video Object Segmentation with Deep Learning](papers/Video-Object-Segmentation.pdf)
+- `Seminar Paper` [From Multi-Layer Depth Peeling to Efficient Order-Independent Transparency](papers/Multi-Layer-Depth-Peeling.pdf)
 
 <br>
 
@@ -24,6 +24,10 @@ Projects
 ## 2026
 
 TODO work projects
+
+| [Puer Aeternus Bingo](https://github.com/itsnotoger/puer-aeternus-bingo) | [D&D Cleric Subclass](https://github.com/itsnotoger/compendium) |
+|--|--|
+|  <p align='center'><a href="https://itsnotoger.github.io/puer-aeternus-bingo/"><img src="images/puer-bingo.png"/></a></p>   Vibe coding adventure: Bingo Board with overkill animations. Most time went into the shuffle animation, which includes particle effects, tearing cards into fragments, and swirling them out.    |    <p align='center'><a href="https://itsnotoger.github.io/compendium/"><img src="images/cleric-aspect.png" height=400 /></a></p>   Vibe coding adventure: Homebrew cleric subclass with 3 layouts and popup modals (image: mobile layout). This project was as much about learning D&D class design, as it was layouting. It also features a custom Aspect+Flaw rule set, and provides a framework for RP that is normally absent from classic D&D rules.   |
 
 ## 2024-2025
 
